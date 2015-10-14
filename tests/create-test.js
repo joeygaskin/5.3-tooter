@@ -11,7 +11,6 @@ describe("create post form", function() {
       done();
   });
 $(document).ready(function() {
-  console.log('form says hello');
   $('.js-create-post-form.submit').trigger('submit');
 
 });
